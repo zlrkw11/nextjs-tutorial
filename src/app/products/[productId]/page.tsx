@@ -1,3 +1,3 @@
-export default function ProductDetails() {
-  return <h1>Details about the product</h1>;
+export default function ProductDetails({ params }) {
+  return <h1>Details about the product {params.productId}</h1>;
 }
