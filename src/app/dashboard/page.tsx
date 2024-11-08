@@ -3,5 +3,10 @@ function BarChart() {
 }
 
 export default function Dashboard() {
-  return <h1>Dash Board</h1>;
+  return (
+    <>
+      <h1>Dash Board</h1>
+      <BarChart />
+    </>
+  );
 }
